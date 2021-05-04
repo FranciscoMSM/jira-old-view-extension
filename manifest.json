@@ -1,0 +1,13 @@
+{
+  "name": "Jira Old Issue View extension",
+  "version": "1",
+  "manifest_version": 2,
+  "background": {
+    "scripts":["background.js"]
+  },
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "*://memsql.atlassian.net/browse"
+    ]
+}
